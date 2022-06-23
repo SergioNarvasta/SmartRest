@@ -51,7 +51,6 @@ namespace RestCsharp.Sunat
             parametros.DistmpresaEmisora = parametrosPasar.DistmpresaEmisora;
             parametros.DireccionEmpresaEmisora = parametrosPasar.DireccionEmpresaEmisora;
             parametros.Ubigeo = parametrosPasar.Ubigeo.Trim();
-
             parametros.EmpresaRUCcliente = parametrosPasar.EmpresaRUCcliente;
             parametros.EmpresaRazonsocialCliente = parametrosPasar.EmpresaRazonsocialCliente;
             parametros.DireccionCliente = parametrosPasar.DireccionCliente;
