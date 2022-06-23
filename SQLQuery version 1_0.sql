@@ -689,26 +689,6 @@ update Propiedades_de_mesas set Tamanio_letra=Tamanio_letra+10
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 GO
 /****** Object:  StoredProcedure [dbo].[aumentar_tamanio_mesa]    Script Date: 03/08/2021 10:50:04 ******/
 SET ANSI_NULLS ON
@@ -720,17 +700,6 @@ CREATE proc [dbo].[aumentar_tamanio_mesa]
 
 as
 update Propiedades_de_mesas set x=x+10,y=y+10
-
-
-
-
-
-
-
-
-
-
-
 
 
 
