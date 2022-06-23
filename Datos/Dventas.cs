@@ -37,7 +37,6 @@ namespace RestCsharp.Datos
                 CONEXIONMAESTRA.cerrar();
             }
         }
-
         public void MostrarBoletaspendientes(ref DataTable dt)
         {
             try
@@ -181,7 +180,6 @@ namespace RestCsharp.Datos
         {
             try
             {
-
                 CONEXIONMAESTRA.abrir();
                 SqlCommand cmd = new SqlCommand("editarventaClientStandar", CONEXIONMAESTRA.conectar);
                 cmd.CommandType = CommandType.StoredProcedure;

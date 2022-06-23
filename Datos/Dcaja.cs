@@ -166,7 +166,6 @@ namespace RestCsharp.Datos
         {
             try
             {
-
                 Bases.Obtener_serialPC(ref SerialPc);
                 CONEXIONMAESTRA.abrir();
                 SqlCommand cmd = new SqlCommand("ReemplazarSerialPc", CONEXIONMAESTRA.conectar);

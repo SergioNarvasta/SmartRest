@@ -257,18 +257,6 @@ FROM            dbo.Ticket INNER JOIN
                          dbo.Producto1 ON dbo.detalle_venta.Id_producto = dbo.Producto1.Id_Producto1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 GO
 /****** Object:  Table [dbo].[AreasImpresion]    Script Date: 03/08/2021 10:50:04 ******/
 SET ANSI_NULLS ON

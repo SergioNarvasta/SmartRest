@@ -21,7 +21,6 @@ namespace RestCsharp.Datos
 			}
 			catch (Exception ex)
 			{
-
 				MessageBox.Show(ex.StackTrace);
 			}
 			finally
